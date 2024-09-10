@@ -36,8 +36,8 @@ class Chapter:
         self.pagecount = pagecount
 
 
-auth = Author("Leo", "Tolstoy")
-b1 = Book("War and Peace", 39.95, auth)
+## auth = Author("Leo", "Tolstoy")
+b1 = Book("War and Peace", 39.95, Author("Leo", "Tolstoy"))
 
 b1.addchapter(Chapter("Chapter 1", 104))
 b1.addchapter(Chapter("Chapter 2", 89))
